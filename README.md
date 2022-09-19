@@ -1,6 +1,5 @@
 # Empezando la creacion de proyectos con svelte y tailwindcss.
 
-<<<<<<< HEAD
 1.- Clonar el repositorio.
 2.- Abrir terminal y ejecute npm install.
 3.- Ejecutar en la terminal npm run dev.
