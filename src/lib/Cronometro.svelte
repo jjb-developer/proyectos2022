@@ -1,6 +1,5 @@
 <script>
    import { fade } from 'svelte/transition'
-   const imagen = 'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
    const title = 'Cronometro'
    let modal = false
 </script>

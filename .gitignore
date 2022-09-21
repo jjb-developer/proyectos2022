@@ -9,7 +9,7 @@ lerna-debug.log*
 
 node_modules
 assetsDownload
-token
+.token
 dist
 dist-ssr
 *.local

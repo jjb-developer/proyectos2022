@@ -9,17 +9,5 @@ import Cronometro from './lib/Cronometro.svelte'
    <PreviewCard/>
    <Calculadora/>
    <Cronometro/>
-   <div class='w-full ss_:w-[90%] xs:w-[50%] md:w-1/3 lg:w-1/4 h-48 bg-zinc-50 flex items-center justify-center'>
-      <div class='bg-pink-500 w-[92%] h-[90%] flex items-center justify-center'>1</div>
-   </div>
-   <div class='w-full ss_:w-[90%] xs:w-[50%] md:w-1/3 lg:w-1/4 h-48 bg-zinc-50 flex items-center justify-center'>
-      <div class='bg-pink-500 w-[92%] h-[90%] flex items-center justify-center'>1</div>
-   </div>
-   <div class='w-full ss_:w-[90%] xs:w-[50%] md:w-1/3 lg:w-1/4 h-48 bg-zinc-50 flex items-center justify-center'>
-      <div class='bg-pink-500 w-[92%] h-[90%] flex items-center justify-center'>1</div>
-   </div>
-   <div class='w-full ss_:w-[90%] xs:w-[50%] md:w-1/3 lg:w-1/4 h-48 bg-zinc-50 flex items-center justify-center'>
-      <div class='bg-pink-500 w-[92%] h-[90%] flex items-center justify-center'>1</div>
-   </div>
 </div>
 </main>
