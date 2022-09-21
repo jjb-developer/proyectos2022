@@ -9,31 +9,33 @@
 </div>
 <!-- modal start -->
 {#if modal}
-<div transition:fade class='{ modal ? 'block':'hidden'} absolute top-0 left-0 flex items-center justify-center w-full h-screen bg-zinc-50 select-none'>
+<div transition:fade class='{ modal ? 'block':'hidden'} absolute top-0 left-0 flex items-center justify-center w-full h-screen bg-[#F3EAE3] select-none'>
    <div on:click={ ()=> modal = false } class='fixed top-4 right-4 w-7 h-7 rounded cursor-pointer flex items-center justify-center bg-red-600 hover:bg-red-500 transtion-[background] duration-[400ms]'>
       <i class='pt-0.5 pr-0.5 bx bx-x text-3xl text-red-900 font-bold'></i>
    </div>
-   <div class='w-96 h-full bg-gradient-to-b from-[#F3EAE3] to-[#F3EAE3]/70 flex items-center justify-center'>
-      <div class='w-[90%] bg-white rounded-xl overflow-hidden'>
-         <figure class='w-full h-48 overflow-hidden'>
-            <img src="{imagen}" alt='colonia' class='object-none object-center'>
+   <div class='w-96 md:w-full flex items-center justify-center'>
+      <div class='md:h-[450px] rounded-xl overflow-hidden md:flex md:justify-center'>
+         <figure class='w-full md:w-80 h-48 md:h-full overflow-hidden bg-red-500'>
+            <img src="{imagen}" alt='colonia' class='md:h-full object-cover object-center'>
          </figure>
-         <section class='px-7 pt-7 flex flex-col gap-y-3'>
-            <h2 class='tracking-[0.5em] uppercase text-xs'>perfume</h2>
-            <h1 class='text-4xl font-semibold capitalize'>gabrielle essence eau de parfum</h1>
-            <p class='text-[1.09em]'>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfume-Creator for the House of CHANEL.</p>
-         </section>
-         <div class='px-7 pt-6 pb-7 flex flex-col gap-y-3'>
-            <section class='flex items-center gap-x-4'>
-               <div class='text-4xl text-green-700 font-bold tracking-tight'>$149.99</div>
-               <div class='line-through'>$169.99</div>
+         <div class='md:w-80 bg-zinc-50'>
+            <section class='px-7 pt-7 flex flex-col gap-y-3'>
+               <h2 class='tracking-[0.5em] uppercase text-xs'>perfume</h2>
+               <h1 class='text-4xl font-semibold capitalize'>gabrielle essence eau de parfum</h1>
+               <p class='text-[1.09em]'>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfume-Creator for the House of CHANEL.</p>
             </section>
-            <section>
-               <button class='outline-none bg-green-700 w-full rounded-md py-3 text-zinc-50 flex items-center justify-center gap-x-3'>
-                  <i class='bx bx-cart-alt text-lg font-medium'></i>
-                  <span class='font-semibold'>Add to Cart</span>
-               </button>
-            </section>
+            <div class='px-7 pt-6 pb-7 flex flex-col gap-y-3'>
+               <section class='flex items-center gap-x-4'>
+                  <div class='text-4xl text-green-700 font-bold tracking-tight'>$149.99</div>
+                  <div class='line-through'>$169.99</div>
+               </section>
+               <section>
+                  <button class='outline-none bg-green-700 hover:bg-green-600 w-full rounded-md py-3 text-zinc-50 flex items-center justify-center gap-x-3 transition-[background]'>
+                     <i class='bx bx-cart-alt text-lg font-medium'></i>
+                     <span class='font-semibold'>Add to Cart</span>
+                  </button>
+               </section>
+            </div>
          </div>
       </div>
    </div>
